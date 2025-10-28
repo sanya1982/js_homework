@@ -47,18 +47,15 @@ btnClose = document.querySelector('.close'),
 modal = document.querySelector('dialog');
 btnOpen.addEventListener("click", function() {
 	modal.showModal();
-	console.log(modal.open);
 });
 btnClose.addEventListener("click", function() {
 	modal.close();
-	console.log(modal.open);
 });
 
 // Створити HTML-сторінку зі світлофором і кнопкою, яка перемикає світлофор на наступний колір.
 
 const trafficLightSwitch = document.querySelector('.toggle'),
-trafficLights = document.getElementsByClassName('traffic-lights'),
-circle = document.querySelectorAll('.circle')
+circle = document.querySelectorAll('.circle'),
 classes = ['red', 'yellow', 'green'];
 circle[0].classList.add(`${classes[0]}`);
 let i = 1;
