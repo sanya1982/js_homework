@@ -45,3 +45,61 @@ dialog {
 .green {
   background-color: green;
 }
+
+.events {
+  height: 100px;
+  width: 300px;
+  border: 2px, solid, black;
+}
+
+table {
+  height: 800px;
+  width: 1000px;
+  border: 2px, solid, black;
+}
+
+th {
+  border: 2px, solid, black;
+  cursor: pointer;
+}
+
+th:active {
+  background-color: aquamarine;
+}
+
+td {
+  border: 2px, solid, black;
+  text-align: center;
+}
+
+.area {
+  border: 2px, solid, black;
+  cursor: nwse-resize;
+}
+.area:active {
+  border-bottom-right-radius: 10px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+.wrapper__item {
+  background-color:aquamarine;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  background-color:rgb(153, 121, 81);
+  margin: 0 auto;
+  font-weight: 700;
+  width: 100px;
+}
